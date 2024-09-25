@@ -15,7 +15,7 @@ namespace WebAtrioEmployeManagement.Models
 
         public int PersonneId { get; set; }
 
-        [ForeignKey("IdPersonne")]
+        
         public Personne Personne { get; set; }
 
     }
